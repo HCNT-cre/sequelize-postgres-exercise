@@ -13,7 +13,7 @@ const controller = {
             const category = req.query.category || '';
             const tag = req.query.tag || '';
             
-            let blogs = await blogRepo.GetBlogsSummary(6, (page - 1) * 6, searchTerm, category, tag);
+            let blogs = await blogRepo.GetBlogsSummary(4, (page - 1) * 4, searchTerm, category, tag);
 
             if(blogs && blogs.length > 0) {
                 console.log(blogs.length);
