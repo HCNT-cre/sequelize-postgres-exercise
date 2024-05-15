@@ -1,0 +1,36 @@
+{
+    "development": {
+      "username": "ptudwprojectsequelize",
+      "password": "TC5m1YyfRIQZAcHr0h3v7aWN0XDxbgj3",
+      "database": "ptudwprojectsequelize",
+      "host": "dpg-cp2dcp6n7f5s73ffpir0-a.oregon-postgres.render.com",
+      "dialect": "postgres",
+      "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+      }
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "ptudwprojectsequelize",
+      "password": "TC5m1YyfRIQZAcHr0h3v7aWN0XDxbgj3",
+      "database": "ptudwprojectsequelize",
+      "host": "dpg-cp2dcp6n7f5s73ffpir0-a.oregon-postgres.render.com",
+      "dialect": "postgres",
+      "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+      }
+    }
+  }
+  
